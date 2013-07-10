@@ -49,8 +49,6 @@ body{
   font-size: 20px;    
   text-transform: uppercase;
   border-radius: 0; 
-  margin-top: 50px;
-  margin-bottom: 100px;    
 }
 
 a.BtnCta{
@@ -135,7 +133,7 @@ p.Servicos{
     min-height: 400px; 
     background-attachment: fixed;
     background-size: cover;
-    background-image: url(images/bg-giz.jpg);
+    background: url(images/bg-giz.jpg);
 }
 
 .Giz p{
@@ -152,5 +150,29 @@ p.Servicos{
 
 #footer{
     min-height: 400px;
-    background-color: #FDC053;
+    background-color: #5B52A2;
+    padding: 50px 0 50px 0;
+}
+
+#footer p{
+    color: #fff;
+}
+
+.LogoFooter{
+    width: 175px;
+    height: 60px;
+    background: url(images/logo-footer.png) center no-repeat;
+    text-align: center;
+    padding: 50px 0 50px 0;
+    display: inline-block;
+}
+
+.CtaContent{
+    background: rgba(255, 255, 255, 0.19) url(images/arrow.png) 150px 50px no-repeat;
+    width: 900px;
+    min-height: 100px;
+    display: inline-block;
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #27b899;
 }
