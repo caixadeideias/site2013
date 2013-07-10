@@ -16,6 +16,8 @@ body{
 
 .Banner{
     background: url(images/bgBanner.png);
+    background-attachment: fixed;
+    background-size: cover;
     min-height: 400px;
 }
 
@@ -89,10 +91,11 @@ article h1{
     color: #fff;
     font-weight: 700;
     line-height: 60px;
+    margin: 20px 0 20px 0;
 }
 
 article h2{
-    font-size: 24px;
+    font-size: 18px;
     color: #fff;
     font-weight: 400;
     line-height: 26px;
@@ -125,4 +128,28 @@ p.Servicos{
 
 .span4.boxe{
     width: 370px;
+}
+
+.Giz{
+    min-height: 400px; 
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(images/bg-giz.jpg);
+}
+
+.Giz p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.Giz h1, .Oque h1, #footer h1{
+    font-size: 38px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+#footer{
+    min-height: 400px;
+    background-color: #FDC053;
 }
