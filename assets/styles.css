@@ -15,7 +15,7 @@ body{
 }
 
 .Banner{
-    background: #33c9d3;
+    background: #13A7C7;
     background-attachment: fixed;
     background-size: cover;
     min-height: 400px;
@@ -26,7 +26,7 @@ body{
   font-size: 80px;
   font-weight: 700;
   line-height: 55px;
-  margin-top: 100px;
+  margin-top: 60px;
   padding-top: 10px;
   text-transform: uppercase;
   text-align: center;
@@ -52,9 +52,9 @@ body{
 }
 
 a.BtnCta{
-    color: #33c9d3;
-    background: #fff;
-    border-bottom: 4px solid #21afb9;
+    color: #fff;
+    background: #137795;
+    border-bottom: 4px solid #1b93b7;
     text-decoration:none;
 }
 
@@ -77,11 +77,21 @@ section{
 }
 
 .Clientes{
-    background: #33c9d3 url(images/clientes.png) no-repeat center;
+    background: #137795 url(images/clientes.png) no-repeat center;
 }
 
 .Oque{
-    background-color: #f4f4f4;
+    background-color: #ecf8ff;
+}
+
+.Oque p{
+    font-size: 18px;
+    color: #2ba6cb;
+    line-height: 22px;
+}
+
+.Oque h1{
+    color: #2ba6cb;
 }
 
 article h1{
@@ -101,22 +111,12 @@ article h2{
 }
 
 .boxe h2{
-    color: #33c9d3;
-}
-
-.Oque p{
-    font-size: 18px;
-    color: #363636;
-    line-height: 22px;
-}
-
-.Oque h1{
-    color: #363636;
+    color: #2ba6cb;
 }
 
 h1, h2 {
     font-size: 70px;
-    color: #363636;
+    color: #2ba6cb;
     font-weight: 700; 
     line-height: 70px;
 }
@@ -134,7 +134,7 @@ p.Servicos{
 
 .Giz{
     min-height: 400px; 
-    background-color: #33c9d3;
+    background-color: #fff;
 }    
 
 .Giz p{
