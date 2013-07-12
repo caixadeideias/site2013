@@ -15,7 +15,7 @@ body{
 }
 
 .Banner{
-    background: url(images/bgBanner.png);
+    background: #33c9d3;
     background-attachment: fixed;
     background-size: cover;
     min-height: 400px;
@@ -27,7 +27,7 @@ body{
   font-weight: 700;
   line-height: 55px;
   margin-top: 100px;
-  padding-top: 30px;
+  padding-top: 10px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -52,16 +52,16 @@ body{
 }
 
 a.BtnCta{
-    color: #fff;
-    background: #27b899;
-    border-bottom: 4px solid #1e9a7f;
+    color: #33c9d3;
+    background: #fff;
+    border-bottom: 4px solid #21afb9;
     text-decoration:none;
 }
 
 a:hover.BtnCta{
     color: #fff;
-    background: #1e9a7f;
-    border-bottom: 4px solid #27b899;
+    background: #21afb9;
+    border-bottom: 4px solid #1ebbc6;
 }
 
 section{
@@ -69,7 +69,7 @@ section{
 }
 
 .mais{
-    background: #F26954;
+    background: #fff;
 }
 
 .LeadMais{
@@ -86,7 +86,7 @@ section{
 
 article h1{
     font-size: 56px;
-    color: #fff;
+    color: #363636;
     font-weight: 700;
     line-height: 60px;
     margin: 20px 0 20px 0;
@@ -94,7 +94,7 @@ article h1{
 
 article h2{
     font-size: 24px;
-    color: #fff;
+    color: #363636;
     font-weight: 400;
     line-height: 26px;
     font-family: 'Satisfy', cursive;
