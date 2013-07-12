@@ -77,42 +77,46 @@ section{
 }
 
 .Clientes{
-    background: #FAAC53 url(images/clientes.png) no-repeat center;
+    background: #33c9d3 url(images/clientes.png) no-repeat center;
 }
 
 .Oque{
-    background-color: #FDC053;
+    background-color: #f4f4f4;
 }
 
 article h1{
-    font-size: 56px;
+    font-size: 60px;
     color: #363636;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 50px;
     margin: 20px 0 20px 0;
 }
 
 article h2{
-    font-size: 24px;
+    font-size: 32px;
     color: #363636;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 20px;
     font-family: 'Satisfy', cursive;
 }
 
-.Branco h1, .Branco h2{
-    color: #fff;
+.boxe h2{
+    color: #33c9d3;
 }
 
 .Oque p{
     font-size: 18px;
-    color: #fff;
+    color: #363636;
     line-height: 22px;
 }
 
-h2 {
+.Oque h1{
+    color: #363636;
+}
+
+h1, h2 {
     font-size: 70px;
-    color: #fff;
+    color: #363636;
     font-weight: 700; 
     line-height: 70px;
 }
@@ -121,8 +125,7 @@ p.Servicos{
     font-family: 'Satisfy', cursive;
     font-size: 24px;
     line-height: 25px;
-    color: #fff;
-    color: #fff;
+    color: #363636;
 }
 
 .span4.boxe{
@@ -131,10 +134,8 @@ p.Servicos{
 
 .Giz{
     min-height: 400px; 
-    background-attachment: fixed;
-    background-size: cover;
-    background: url(images/bg-giz.jpg);
-}
+    background-color: #33c9d3;
+}    
 
 .Giz p{
     color: #fff;
@@ -143,14 +144,12 @@ p.Servicos{
 }
 
 .Giz h1, .Oque h1, #footer h1{
-    font-size: 38px;
-    text-transform: uppercase;
-    margin-bottom: 50px;
+    font-size: 60px;
 }
 
 #footer{
     min-height: 400px;
-    background-color: #5B52A2;
+    background-color: #363636;
     padding: 50px 0 50px 0;
 }
 
