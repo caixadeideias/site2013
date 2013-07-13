@@ -168,7 +168,7 @@ p.Servicos{
 }
 
 .CtaContent{
-    background: url(images/arrow.png) 270px 20px no-repeat;
+    background: url(images/arrow.png) 250px 40px no-repeat;
 }
 
 .CtaContato p{
@@ -191,8 +191,8 @@ p.Servicos{
 }
 
 .LogoFooter{
-    width: 175px;
-    height: 60px;
+    width: 381px;
+    height: 51px;
     background: url(images/logo-footer.png) center no-repeat;
     text-align: center;
     padding: 50px 0 50px 0;
