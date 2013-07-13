@@ -59,8 +59,8 @@ a.BtnCta{
 }
 
 a:hover.BtnCta{
-    color: #fff;
-    background: #21afb9;
+    color: #21afb9;
+    background: #fff;
     border-bottom: 4px solid #1ebbc6;
 }
 
@@ -162,9 +162,27 @@ p.Servicos{
     width: 370px;
 }
 
+.CtaContato{
+    background-color: #13A7C7;
+}
+
+.CtaContent{
+    background: url(images/arrow.png) 250px 50px no-repeat;
+}
+
+.CtaContato p{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
 #footer{
     background-color: #363636;
     padding: 50px 0 50px 0;
+}
+
+#footer h1, #footer h2{
+    color: #fff;
 }
 
 #footer p{
@@ -180,15 +198,6 @@ p.Servicos{
     display: inline-block;
 }
 
-.CtaContent{
-    background: rgba(255, 255, 255, 0.19) url(images/arrow.png) 150px 50px no-repeat;
-    width: 900px;
-    min-height: 100px;
-    display: inline-block;
-    margin-top: 50px;
-    padding: 20px;
-    border: 1px solid #27b899;
-}
 
 .SocialFooterTwitter{
     margin-bottom: 20px;
