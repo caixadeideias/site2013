@@ -69,7 +69,7 @@ section{
 }
 
 .mais{
-    background: #fff;
+    background: #f6f8f8;
 }
 
 .LeadMais{
@@ -80,18 +80,48 @@ section{
     background: #137795 url(images/clientes.png) no-repeat center;
 }
 
-.Oque{
+.Sobre{
     background-color: #ecf8ff;
 }
 
-.Oque p{
+.Sobre p{
     font-size: 18px;
     color: #2ba6cb;
     line-height: 22px;
+    text-align: left;
 }
 
-.Oque h1{
+.Sobre h1{
     color: #2ba6cb;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.MaisSobre{ 
+    background-color: #f6f8f8;
+}    
+
+.MaisSobre p{
+    color: #999a9d;
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 20px;
+}
+
+.MaisSobre h1, .MaisSobre h2{
+    color: #999a9d;
+}
+
+.MaisSobre h1, .Sobre h1, #footer h1{
+    font-size: 60px;
+}
+
+.Rocket{
+    margin-top: 50px;
+}
+
+.Bulb{
+    margin-top: 40px;   
 }
 
 article h1{
@@ -132,23 +162,7 @@ p.Servicos{
     width: 370px;
 }
 
-.Giz{
-    min-height: 400px; 
-    background-color: #fff;
-}    
-
-.Giz p{
-    color: #fff;
-    font-size: 18px;
-    line-height: 22px;
-}
-
-.Giz h1, .Oque h1, #footer h1{
-    font-size: 60px;
-}
-
 #footer{
-    min-height: 400px;
     background-color: #363636;
     padding: 50px 0 50px 0;
 }
