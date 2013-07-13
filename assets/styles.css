@@ -130,6 +130,7 @@ article h1{
     font-weight: 700;
     line-height: 50px;
     margin: 20px 0 20px 0;
+    text-transform: uppercase;
 }
 
 article h2{
@@ -155,7 +156,7 @@ p.Servicos{
     font-family: 'Satisfy', cursive;
     font-size: 24px;
     line-height: 25px;
-    color: #363636;
+    color: #999a9d;
 }
 
 .span4.boxe{
@@ -167,7 +168,7 @@ p.Servicos{
 }
 
 .CtaContent{
-    background: url(images/arrow.png) 250px 50px no-repeat;
+    background: url(images/arrow.png) 270px 20px no-repeat;
 }
 
 .CtaContato p{
