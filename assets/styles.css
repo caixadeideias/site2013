@@ -14,28 +14,31 @@ body{
     width: 1174px;
 }
 
+.LogoBanner{
+    width: 590px;
+    min-height: 200px;
+}
+
 .Banner{
-    background: #2ba3d4;
+    background: #2ba3d4 url(images/bg-header.png) center bottom no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-    min-height: 400px;
+    min-height: 600px;
 }
 
 .Banner h1{    
   color: #fff;
-  font-size: 80px;
+  font-size: 50px;
   font-weight: 700;
-  line-height: 55px;
-  margin-top: 60px;
-  padding-top: 10px;
+  margin-top: 30px;
   text-transform: uppercase;
   text-align: center;
 }
 
 .Banner h2{
   color: #fff;
-  font-size: 38px;
-  font-weight: 400;
+  font-size: 28px;
+  font-weight: 100;
+  line-height: 20px;        
   text-align: center;
   margin-bottom: 30px;
   background: url(images/stars.png) no-repeat center bottom;
@@ -49,11 +52,12 @@ body{
   font-size: 20px;    
   text-transform: uppercase;
   border-radius: 0; 
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.1);        
 }
 
 a.BtnCta{
-    color: #fff;
-    background: #137795;
+    color: #1b93b7;
+    background: #fff;
     border-bottom: 4px solid #1b93b7;
     text-decoration:none;
 }
@@ -77,39 +81,39 @@ section{
 }
 
 .Clientes{
-    background: #137795 url(images/clientes.png) no-repeat center;
+    background: #000 url(images/clientes.png) no-repeat center;
 }
 
 .Sobre{
-    background-color: #ecf8ff;
+    background-color: #fff;
 }
 
 .Sobre p{
     font-size: 18px;
-    color: #2ba6cb;
+    color: #666;
     line-height: 26px;
     text-align: left;
 }
 
 .Sobre h1{
-    color: #2ba6cb;
+    color: #222;
     text-align: left;
     padding-top: 20px;
 }
 
 .MaisSobre{ 
-    background-color: #f6f8f8;
+    background-color: #3dc0f1;
 }    
 
 .MaisSobre p{
-    color: #999a9d;
+    color: #fff;
     font-size: 18px;
     line-height: 26px;
     padding-top: 20px;
 }
 
 .MaisSobre h1, .MaisSobre h2{
-    color: #999a9d;
+    color: #fff;
 }
 
 .MaisSobre h1, .Sobre h1, #footer h1{
@@ -126,7 +130,7 @@ section{
 
 article h1{
     font-size: 60px;
-    color: #999a9d;
+    color: #fff;
     font-weight: 700;
     line-height: 50px;
     margin: 20px 0 20px 0;
@@ -135,14 +139,14 @@ article h1{
 
 article h2{
     font-size: 32px;
-    color: #999a9d;
+    color: #fff;
     font-weight: 400;
     line-height: 20px;
     font-family: 'Satisfy', cursive;
 }
 
 .boxe h2{
-    color: #2ba6cb;
+    color: #fff;
 }
 
 h1, h2 {
@@ -153,10 +157,10 @@ h1, h2 {
 }
 
 p.Servicos{
-    font-family: 'Satisfy', cursive;
-    font-size: 24px;
-    line-height: 25px;
-    color: #999a9d;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 16px;
+    color: #fff;
 }
 
 .span4.boxe{
@@ -164,7 +168,7 @@ p.Servicos{
 }
 
 .CtaContato{
-    background-color: #13A7C7;
+    background-color: #2ba3d4;
 }
 
 .CtaContent{
@@ -178,7 +182,7 @@ p.Servicos{
 }
 
 #footer{
-    background: #363636;
+    background: #222    ;
     padding: 50px 0 50px 0;
 }
 
