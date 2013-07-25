@@ -3,28 +3,12 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-.text-center{
-	text-align: center;
-}
-.center{
-	margin: 0 auto;
-}
-
-.container{
-    width: 1174px;
-}
-
-.LogoBanner{
-    width: 590px;
-    min-height: 200px;
-}
-
 .Banner{
     background: #2ba3d4 url(images/bg-header.png) center bottom no-repeat;
     background-attachment: fixed;
     min-height: 600px;
 }
-.Banner h1{    
+.Banner h1{
   color: #fff;
   font-size: 50px;
   font-weight: 700;
@@ -37,7 +21,7 @@ body{
   color: #fff;
   font-size: 28px;
   font-weight: 100;
-  line-height: 20px;        
+  line-height: 20px;
   text-align: center;
   margin-bottom: 30px;
   background: url(images/stars.png) no-repeat center bottom;
@@ -45,13 +29,10 @@ body{
 
 .BtnCta{
   display: inline-block;
-  min-height: 80px;
-  line-height: 80px;    
-  width: 400px;
-  font-size: 20px;    
+  font-size: 20px;
   text-transform: uppercase;
-  border-radius: 0; 
-  box-shadow: 1px 1px 1px rgba(0,0,0,0.1);        
+  border-radius: 0;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 }
 
 a.BtnCta{
@@ -100,9 +81,9 @@ section{
     padding-top: 20px;
 }
 
-.MaisSobre{ 
+.MaisSobre{
     background-color: #3dc0f1;
-}    
+}
 
 .MaisSobre p{
     color: #fff;
@@ -124,7 +105,7 @@ section{
 }
 
 .Bulb{
-    margin-top: 20px;   
+    margin-top: 20px;
 }
 
 article h1{
@@ -151,7 +132,7 @@ article h2{
 h1, h2 {
     font-size: 70px;
     color: #2ba6cb;
-    font-weight: 700; 
+    font-weight: 700;
     line-height: 70px;
 }
 
@@ -160,10 +141,6 @@ p.Servicos{
     font-size: 16px;
     line-height: 16px;
     color: #fff;
-}
-
-.span4.boxe{
-    width: 370px;
 }
 
 .CtaContato{
@@ -198,10 +175,8 @@ p.Servicos{
     height: 51px;
     background: url(images/logo-footer.png) center no-repeat;
     text-align: center;
-    padding: 50px 0 50px 0;
     display: inline-block;
 }
-
 
 .SocialFooterTwitter{
     margin-bottom: 20px;
@@ -209,7 +184,4 @@ p.Servicos{
 
 .SocialFooterFacebook{
     background-color: rgba(255, 255, 255, 0.19);
-    width: 520px;
-    padding: 10px;
-    display: inline-block;
 }

@@ -30,8 +30,8 @@ a{
     padding-left: 10px;
 }
 
-.Social{
-    width: 165px;
+.Social span{
+  visibility: hidden;
 }
 
 a.Facebook{
