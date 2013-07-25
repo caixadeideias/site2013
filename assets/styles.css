@@ -3,22 +3,6 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-.text-center{
-	text-align: center;
-}
-.center{
-	margin: 0 auto;
-}
-
-.container{
-    width: 1174px;
-}
-
-.LogoBanner{
-    width: 590px;
-    min-height: 200px;
-}
-
 .Banner{
     background: #2ba3d4 url(images/bg-header.png) center bottom no-repeat;
     background-attachment: fixed;
@@ -45,9 +29,6 @@ body{
 
 .BtnCta{
   display: inline-block;
-  min-height: 80px;
-  line-height: 80px;
-  width: 400px;
   font-size: 20px;
   text-transform: uppercase;
   border-radius: 0;
@@ -162,10 +143,6 @@ p.Servicos{
     color: #fff;
 }
 
-.span4.boxe{
-    width: 370px;
-}
-
 .CtaContato{
     background-color: #2ba3d4;
 }
@@ -198,10 +175,8 @@ p.Servicos{
     height: 51px;
     background: url(images/logo-footer.png) center no-repeat;
     text-align: center;
-    padding: 50px 0 50px 0;
     display: inline-block;
 }
-
 
 .SocialFooterTwitter{
     margin-bottom: 20px;
@@ -209,7 +184,4 @@ p.Servicos{
 
 .SocialFooterFacebook{
     background-color: rgba(255, 255, 255, 0.19);
-    width: 520px;
-    padding: 10px;
-    display: inline-block;
 }
